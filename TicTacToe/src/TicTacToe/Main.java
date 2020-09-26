@@ -28,7 +28,7 @@ public class Main {
         while (true)
         {
             ///For human
-            System.out.println("Input position between 1-9");
+            System.out.println("Input position between 1-9\n");
             PlayerPos = scan.nextInt();
             while(PlayersMove.contains(PlayerPos) || CompMove.contains(PlayerPos))
             {
